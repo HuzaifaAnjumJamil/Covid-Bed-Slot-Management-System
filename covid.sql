@@ -214,9 +214,9 @@ ALTER TABLE `user`
   ADD PRIMARY KEY (`id`),
   ADD UNIQUE KEY `srfid` (`srfid`);
 
---
+
 -- AUTO_INCREMENT for dumped tables
---
+
 
 --
 -- AUTO_INCREMENT for table `bookingpatient`
