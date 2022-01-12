@@ -300,7 +300,6 @@ def hdelete(id):
 @login_required
 def pdetails():
     code = current_user.srfid
-    print(code)
     data = Bookingpatient.query.filter_by(srfid=code).first()
 
     return render_template("detials.html", data=data)
