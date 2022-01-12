@@ -292,7 +292,7 @@ def hedit(id):
 def hdelete(id):
     db.engine.execute(
         f"DELETE FROM `hospitaldata` WHERE `hospitaldata`.`id`={id}")
-    flash("Date Deleted", "danger")
+    flash("Data Deleted", "danger")
     return redirect("/addhospitalinfo")
 
 
